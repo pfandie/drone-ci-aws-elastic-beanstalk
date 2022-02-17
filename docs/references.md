@@ -4,7 +4,7 @@
 AWS access key
 
 **aws_secret_key**\
-AWS access key
+AWS secret key
 
 **bucket**\
 s3 bucket containing the source bundle
