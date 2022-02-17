@@ -1,0 +1,25 @@
+{
+    "extends": [
+        "config:base",
+        ":automergeMinor",
+        ":automergeDigest"
+    ],
+    "enabledManagers": [
+        "dockerfile",
+        "gomod"
+    ],
+    "dockerfile": {
+        "fileMatch": [
+            "Dockerfile"
+        ],
+        "pinDigests": true
+    },
+    "gomod": {
+        "postUpdateOptions": [
+            "gomodTidy"
+        ]
+    },
+    "labels": [
+        "renovate"
+    ]
+}
