@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine3.15@sha256:11739f6bd11861b1c74199d1f2ed13230bb1f5537807fe6addbbb05d4630904c AS builder
+FROM golang:1.17-alpine3.15@sha256:1d4c7fcfd0c4c917383755ca3b6f6c1f797ec16b83cdebc672d9b08a79b64644 AS builder
 
 ENV CGO_ENABLED=0 \
     GOOS=linux \
