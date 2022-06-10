@@ -13,8 +13,8 @@ github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.6 h1:eeXdGVtXEe+2Jc49+/v
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.6/go.mod h1:FwpAKI+FBPIELJIdmQzlLtRe8LQSOreMcM2wBsPMvvc=
 github.com/aws/aws-sdk-go-v2/internal/ini v1.3.13 h1:L/l0WbIpIadRO7i44jZh1/XeXpNDX0sokFppb4ZnXUI=
 github.com/aws/aws-sdk-go-v2/internal/ini v1.3.13/go.mod h1:hiM/y1XPp3DoEPhoVEYc/CZcS58dP6RKJRDFp99wdX0=
-github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.14.6 h1:Ci/+tSmLYBVEa2tj58QP7fY/Ypc0UJpA4bRdxDxVn34=
-github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.14.6/go.mod h1:MLEeNfo+5SbK+z7QfybVGnHY7F6xMNUng7I6skYlfro=
+github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.14.7 h1:Awh0fWLMPI8YRhCt8CRpJQyKZNoQJcAXG0q6eKulG48=
+github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.14.7/go.mod h1:MLEeNfo+5SbK+z7QfybVGnHY7F6xMNUng7I6skYlfro=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.6 h1:0ZxYAZ1cn7Swi/US55VKciCE6RhRHIwCKIWaMLdT6pg=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.6/go.mod h1:DxAPjquoEHf3rUHh1b9+47RAaXB8/7cB6jkzCt/GOEI=
 github.com/aws/aws-sdk-go-v2/service/sso v1.11.8 h1:GNIdO14AHW5CgnzMml3Tg5Fy/+NqPQvnh1HsC1zpcPo=
