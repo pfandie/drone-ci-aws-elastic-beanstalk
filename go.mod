@@ -6,7 +6,7 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.16.7
 	github.com/aws/aws-sdk-go-v2/config v1.15.14
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.9
-	github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.14.8
+	github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.14.9
 	github.com/sirupsen/logrus v1.8.1
 	github.com/urfave/cli/v2 v2.11.0
 )
