@@ -1,4 +1,4 @@
-FROM golang:1.19-alpine3.15@sha256:b3290afdb4c54ddd3d5ad23a86ea089f085bdf37afd8c21141b2a16f23fe0e92 AS builder
+FROM golang:1.19-alpine3.15@sha256:319fee0f6818e23ebd4fbccfe6388f9a922527576dd973a963fde3db557bf09f AS builder
 
 ENV CGO_ENABLED=0 \
     GOOS=linux \
