@@ -4,8 +4,8 @@ go 1.19
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.17.1
-	github.com/aws/aws-sdk-go-v2/config v1.17.11
-	github.com/aws/aws-sdk-go-v2/credentials v1.12.24
+	github.com/aws/aws-sdk-go-v2/config v1.18.0
+	github.com/aws/aws-sdk-go-v2/credentials v1.13.0
 	github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.14.20
 	github.com/sirupsen/logrus v1.9.0
 	github.com/urfave/cli/v2 v2.23.5
