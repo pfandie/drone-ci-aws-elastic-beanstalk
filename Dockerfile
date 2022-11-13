@@ -8,7 +8,7 @@ WORKDIR /drone-aws-eb/build
 ADD . /drone-aws-eb/build
 RUN go build -o /release/drone-aws-eb
 
-FROM alpine:3.16@sha256:65a2763f593ae85fab3b5406dc9e80f744ec5b449f269b699b5efd37a07ad32e
+FROM alpine:3.16@sha256:b95359c2505145f16c6aa384f9cc74eeff78eb36d308ca4fd902eeeb0a0b161b
 
 LABEL org.label-schema.name="drone-aws-eb" \
     org.label-schema.description="A Drone plugin to deploy an Application to AWS Elastic Beanstalk" \
