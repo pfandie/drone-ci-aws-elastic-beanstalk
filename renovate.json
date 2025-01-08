@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
+        "config:recommended",
         ":dependencyDashboard",
         ":automergeMinor",
         ":automergeDigest"
@@ -25,14 +25,20 @@
     "labels": [
         "renovate"
     ],
-    "packageRules": [ 
-      {
-        "description": "Automerge minor/patch/digest for dockerfile",
-        "groupName": "docker-automerge-dependencies",
-        "matchManagers": ["dockerfile"],
-        "matchUpdateTypes": ["minor", "patch", "pinDigest"],
-        "automerge": true
-      }
+    "packageRules": [
+        {
+            "description": "Automerge minor/patch/digest for dockerfile",
+            "groupName": "docker-automerge-dependencies",
+            "matchManagers": [
+                "dockerfile"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pinDigest"
+            ],
+            "automerge": true
+        }
     ],
     "timezone": "Europe/Berlin"
 }
