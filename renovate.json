@@ -12,8 +12,8 @@
         "gomod"
     ],
     "dockerfile": {
-        "fileMatch": [
-            "Dockerfile"
+        "managerFilePatterns": [
+            "/Dockerfile/"
         ],
         "pinDigests": true
     },
