@@ -2,7 +2,7 @@ module drone-aws-elastic-beanstalk
 
 go 1.22
 
-toolchain go1.24.5
+toolchain go1.24.6
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.37.2
@@ -10,7 +10,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.18.3
 	github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.31.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/urfave/cli/v3 v3.3.8
+	github.com/urfave/cli/v2 v2.27.7
 )
 
 require (
